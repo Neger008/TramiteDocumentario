@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/usuario?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: admin
+  jpa:
+    show-sql: true
+    database: MYSQL
+    properties:
+      hibernate.jdbc.lob.non_contextual_creation: true
