@@ -45,5 +45,5 @@ public class Person implements Serializable {
     @ManyToOne
     private Person idPersonCreated;
     
-    
+    public Person (Integer id){this.id =id;}
 }
